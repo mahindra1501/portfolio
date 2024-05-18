@@ -8941,12 +8941,16 @@ button.bg-dark:focus {
 }
 .widget {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between items as needed */
   align-items: center; /* Vertically center items if needed */
   padding: 10px; /* Add padding for spacing */
   border: 1px solid #ccc; /* Optional border for visual */
 }
 
 .widget-item {
+  flex: 1 1 50px; /* Adjust the basis to control size */
+  text-align: center;
   margin: 0 10px; /* Space between items */
 }
 
@@ -11644,6 +11648,18 @@ pre {
   text-align: center;
   padding: 1rem;
   background: #ffcbbd;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .widget-item {
+      flex: 1 1 100%; /* Full width on mobile */
+      margin-bottom: 10px; /* Add space between items */
+      
+  }
+  .spaceBetweenHeaderandSection{
+    padding-bottom: 250px;
+  }
 }
 
 .section {
