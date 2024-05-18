@@ -11653,6 +11653,11 @@ pre {
   .widget-item {
       flex: 1 1 100%; /* Full width on mobile */
       margin-bottom: 10px; /* Add space between items */
+      
+  }
+  .widget{
+    scrollbar-width: auto;
+    scrollbar-color: #000 var(--gray);
   }
 }
 
