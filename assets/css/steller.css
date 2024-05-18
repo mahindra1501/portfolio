@@ -8941,11 +8941,9 @@ button.bg-dark:focus {
 }
 .widget {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px; /* Adjust the gap between items as needed */
-  align-items: center; /* Vertically center items if needed */
-  padding: 10px; /* Add padding for spacing */
-  border: 1px solid #ccc; /* Optional border for visual */
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #cacaca #f9f9f9;
 }
 
 .widget-item {
@@ -11655,10 +11653,6 @@ pre {
   .widget-item {
       flex: 1 1 100%; /* Full width on mobile */
       margin-bottom: 10px; /* Add space between items */
-      
-  }
-  .spaceBetweenHeaderandSection{
-    padding-bottom: 250px;
   }
 }
 
