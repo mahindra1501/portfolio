@@ -488,7 +488,7 @@ mark,
   height: auto;
 }
 .whatsapp{
-  margin: auto;
+  margin-left: 8px;
 }
 .img-thumbnail {
   padding: 0.25rem;
